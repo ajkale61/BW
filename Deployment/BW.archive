@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <enterpriseArchive>
+        <sharedArchive name="Shared Archive">
+            <resourceType>shared.archive.resource</resourceType>
+            <authorProperty>ajkale</authorProperty>
+        </sharedArchive>
+        <processArchive name="Process Archive">
+            <resourceType>process.archive.resource</resourceType>
+            <authorProperty>ajkale</authorProperty>
+            <processProperty>/Test/Test-1.process</processProperty>
+        </processArchive>
+        <versionProperty>2</versionProperty>
+        <authorProperty>ajkale</authorProperty>
+        <addServiceSettableGvars>true</addServiceSettableGvars>
+        <name>BW</name>
+        <designer/>
+        <fileLocationProperty>C:\Users\ajkale\Documents\EAR\Test.ear</fileLocationProperty>
+    </enterpriseArchive>
+</Repository:repository>
