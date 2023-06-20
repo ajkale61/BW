@@ -15,6 +15,6 @@
         <addServiceSettableGvars>true</addServiceSettableGvars>
         <name>BW</name>
         <designer/>
-        <fileLocationProperty>C:\Users\ajkale\Documents\temp\test.ear</fileLocationProperty>
+        <fileLocationProperty>C:\Users\ajkale\Documents\BW\test.ear</fileLocationProperty>
     </enterpriseArchive>
 </Repository:repository>
