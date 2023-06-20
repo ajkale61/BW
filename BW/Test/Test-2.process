@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pd:ProcessDefinition xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:pd="http://xmlns.tibco.com/bw/process/2003" xmlns:ns="http://www.tibco.com/pe/WriteToLogActivitySchema">
-    <pd:name>Test/Test-1.process</pd:name>
+    <pd:name>Test/Test-2.process</pd:name>
     <pd:startName>Timer</pd:startName>
     <pd:startX>0</pd:startX>
     <pd:startY>0</pd:startY>
@@ -27,7 +27,7 @@
     <pd:activity name="Log">
         <pd:type>com.tibco.pe.core.WriteToLogActivity</pd:type>
         <pd:resourceType>ae.activities.log</pd:resourceType>
-        <pd:x>454</pd:x>
+        <pd:x>453</pd:x>
         <pd:y>85</pd:y>
         <config>
             <role>User</role>
@@ -35,7 +35,7 @@
         <pd:inputBindings>
             <ns:ActivityInput>
                 <message>
-                    <xsl:value-of select="concat('Started today:', current-dateTime())"/>
+                    <xsl:value-of select="concat('Started Today:', current-dateTime())"/>
                 </message>
             </ns:ActivityInput>
         </pd:inputBindings>

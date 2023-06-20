@@ -8,13 +8,13 @@
         <processArchive name="Process Archive">
             <resourceType>process.archive.resource</resourceType>
             <authorProperty>ajkale</authorProperty>
-            <processProperty>/Test/Test-1.process</processProperty>
+            <processProperty>/Test/Test-1.process,/Test/Test-2.process</processProperty>
         </processArchive>
-        <versionProperty>2</versionProperty>
+        <versionProperty>7</versionProperty>
         <authorProperty>ajkale</authorProperty>
         <addServiceSettableGvars>true</addServiceSettableGvars>
         <name>BW</name>
         <designer/>
-        <fileLocationProperty>C:\Users\ajkale\Documents\EAR\Test.ear</fileLocationProperty>
+        <fileLocationProperty>C:\Users\ajkale\Documents\temp\test.ear</fileLocationProperty>
     </enterpriseArchive>
 </Repository:repository>
