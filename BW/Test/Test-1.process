@@ -35,7 +35,7 @@
         <pd:inputBindings>
             <ns:ActivityInput>
                 <message>
-                    <xsl:value-of select="concat('Started today1:', current-dateTime())"/>
+                    <xsl:value-of select="concat('Started thursday:', current-dateTime())"/>
                 </message>
             </ns:ActivityInput>
         </pd:inputBindings>
